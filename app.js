@@ -19,17 +19,13 @@ const app = express();
 
 var path = require('path');
 
-// [START hello_world]
-// Say hello!
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname + '/views/index.html'));
-  //res.status(200).send('Hello, world! test by matt');
 });
 
 app.get('/featured', (req, res) => {
   res.sendFile(path.join(__dirname + '/views/featured.html'));
 });
-// [END hello_world]
 
 if (module === require.main) {
   // [START server]
