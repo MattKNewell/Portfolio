@@ -9,3 +9,9 @@ I came accross a problem with not being able to link to my css folder with my st
     -After looking through some stackoverflow forum pages I found someone else who had a similar issue
     -https://stackoverflow.com/questions/34073076/node-js-express-framework-cant-get-css-file
     -I simply needed contain all my css and html views in a folder named public.
+
+Feb 21st 12:45 am
+I am looking into https://startbootstrap.com/snippets/video-header/ this site to possibly introduce a background video as an idea for my page.
+
+TODO
+I want to be able to take a user's email and notes from them if they are interested in my services. I was looking into firebase for an easy database integration.
