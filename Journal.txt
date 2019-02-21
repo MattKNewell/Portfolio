@@ -1,0 +1,11 @@
+This is a journal of what worked, what didn’t, what I had to install, issues I ran into, how I fixed those issues, etc.
+
+The most simple way for me to start out on gcp with a node project was to start at the tutorial.
+    - I made a boiler plate just in case I want to start a fresh porject some day
+    https://github.com/MattKNewell/node-on-gcp
+
+Gcp documentation works well because the docs are very easy to read and understand.
+I came accross a problem with not being able to link to my css folder with my styles.css file
+    -After looking through some stackoverflow forum pages I found someone else who had a similar issue
+    -https://stackoverflow.com/questions/34073076/node-js-express-framework-cant-get-css-file
+    -I simply needed contain all my css and html views in a folder named public.
