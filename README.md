@@ -1,46 +1,33 @@
-# 1 - Hello world
+# The project assigned
 
-![Build Status][ci-badge]
+## Portfolio
 
-This folder contains the sample code for a small App Engine application that
-displays a short message. See the instructions below for how to configure, run,
-and deploy this sample.
+Personal website, featuring:
+- about you page or section
+- featured work page or section
 
-[ci-badge]: https://storage.googleapis.com/nodejs-getting-started-tests-badges/1-tests.svg
+Time expectation: 6-12 hrs/week - 1 week
 
-# Simple instructions
+Keep a journal of what worked, what didn’t, what you had to install, issues you ran into, how you fixed those issues, etc.
 
-1.  Install [Node.js](https://nodejs.org/en/).
-1.  Install [git](https://git-scm.com/).
-1.  Create a [Google Cloud Platform project](https://console.cloud.google.com).
-1.  Install the [Google Cloud SDK](https://cloud.google.com/sdk/).
+**Due** Feb. 26 at 11am
 
-    * After downloading the SDK, initialize it:
 
-            gcloud init
+#### By _**Matthew Newell**_
 
-1.  Clone the repository:
+#Link to site matt.kentnewell.com
 
-        git clone https://github.com/GoogleCloudPlatform/nodejs-getting-started.git
+_This site is Matt Newell's portfolio
 
-1.  Change directory:
+## contact details
+_email_
+_matt@kentnewell.com_
 
-        cd nodejs-getting-started/1-hello-world
+## Technologies Used
 
-1.  Install dependencies:
-
-        npm install
-
-1.  Start the app:
-
-        npm start
-
-1.  View the app at [http://localhost:8080](http://localhost:8080).
-
-1.  Stop the app by pressing `Ctrl+C`.
-
-1.  Deploy the app:
-
-        gcloud app deploy
-
-1.  View the deployed app at [https://YOUR_PROJECT_ID.appspot.com](https://YOUR_PROJECT_ID.appspot.com).
+_HTML_
+_CSS_
+_node js_
+_express_
+_BootStrap_
+_hosted using google cloud platform_
