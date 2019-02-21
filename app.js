@@ -30,6 +30,10 @@ app.get('/featured', (req, res) => {
   res.sendFile(path.join(__dirname + '/public/views/featured.html'));
 });
 
+app.get('/about', (req, res) => {
+  res.sendFile(path.join(__dirname + '/public/views/about.html'));
+});
+
 if (module === require.main) {
   // [START server]
   // Start the server
