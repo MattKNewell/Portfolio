@@ -18,13 +18,16 @@ const express = require('express');
 const app = express();
 
 var path = require('path');
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname + '/views/index.html'));
+  //res.setHeader('content-type', 'text/hmtl');
+  res.statusCode = 202;
+  res.sendFile(path.join(__dirname + '/public/views/index.html'));
 });
 
 app.get('/featured', (req, res) => {
-  res.sendFile(path.join(__dirname + '/views/featured.html'));
+  res.sendFile(path.join(__dirname + '/public/views/featured.html'));
 });
 
 if (module === require.main) {
