@@ -15,3 +15,16 @@ I am looking into https://startbootstrap.com/snippets/video-header/ this site to
 
 TODO
 I want to be able to take a user's email and notes from them if they are interested in my services. I was looking into firebase for an easy database integration.
+
+I want to make bootstrap cards that take my latest videos and pictures from instagram
+
+I need to add features of code porject I have worked on or at least the new hot dog app.
+
+Pointing my google custom domain to my project hosted by gcp was interesting because...
+I bought a custom domain for this site with my personal account and have free money supplied by Wu and Google on my student account.
+-Our student accounts are disabled so you have to buy your domain from a personal account
+    - this makes sense because our student account are not permanent.
+-You can link your persoanl account to your student account in order to be able to use the $50 credit
+
+-After giving permissions to my student account for the custom domain I could simply
+add a custom domain in the App Engine Settings. Luckly there is plenty of documentation for this.
