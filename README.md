@@ -15,7 +15,7 @@ Keep a journal of what worked, what didn’t, what you had to install, issues yo
 
 #### By _**Matthew Newell**_
 
-#Link to site http://matt.kentnewell.com
+## Link to site http://matt.kentnewell.com
 
 _This site is Matt Newell's portfolio
 
@@ -25,9 +25,9 @@ _matt@kentnewell.com_
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_node js_
-_express_
-_BootStrap_
-_hosted using google cloud platform_
+- _HTML_
+- _CSS_
+- _node js_
+- _express_
+- _BootStrap_
+- _hosted using google cloud platform_
