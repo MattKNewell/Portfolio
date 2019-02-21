@@ -68,6 +68,7 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -109,13 +110,14 @@ body {
   margin-left: 20px;
 }
 .masthead-nav > li > a {
+    font-family: 'Raleway', sans-serif;
   padding-right: 0;
   padding-left: 0;
-  font-size: 16px;
+  font-size: 27px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
+  border-bottom: 4px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
