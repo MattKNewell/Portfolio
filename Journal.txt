@@ -18,7 +18,9 @@ I want to be able to take a user's email and notes from them if they are interes
 
 I want to make bootstrap cards that take my latest videos and pictures from instagram
 
-I need to add features of code porject I have worked on or at least the new hot dog app.
+I need to add features of code project I have worked on or at least the new hot dog app.
+
+I want to learn why my site doesnt direct to https 
 
 Pointing my google custom domain to my project hosted by gcp was interesting because...
 I bought a custom domain for this site with my personal account and have free money supplied by Wu and Google on my student account.
