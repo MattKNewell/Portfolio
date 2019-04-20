@@ -13,13 +13,10 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname + '/public/views/index.html'));
 });
 
-app.get('/featured', (req, res) => {
-  res.sendFile(path.join(__dirname + '/public/views/featured.html'));
+app.get('/resume', (req, res) => {
+  res.sendFile(path.join(__dirname + '/public/views/Resume.html'));
 });
 
-app.get('/about', (req, res) => {
-  res.sendFile(path.join(__dirname + '/public/views/about.html'));
-});
 
 if (module === require.main) {
   const server = app.listen(process.env.PORT || 8080, () => {
