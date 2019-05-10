@@ -4,8 +4,11 @@ html {
     font-size: 15px;
 }
 
+footer img {
+    height:5%;
+}
 img{
-    height: 50%;
+    height: 25%;
 }
 
 div, article, p, figure, figcaption, ul, nav {
@@ -42,7 +45,7 @@ nav.sitenavigation {
     font-family: 'Alegreya', Serif;
  }
  nav.sitenavigation li {
-    display: inline-block;
+    display: block;
     margin: 0.7em;
  }
  nav.sitenavigation a:link {
