@@ -17,6 +17,10 @@ app.get('/resume', (req, res) => {
   res.sendFile(path.join(__dirname + '/public/views/Resume.html'));
 });
 
+app.get('/wedding-packages', (req, res) => {
+  res.sendFile(path.join(__dirname + '/public/views/wedding-packages.html'));
+});
+
 
 if (module === require.main) {
   const server = app.listen(process.env.PORT || 8080, () => {

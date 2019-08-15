@@ -37,6 +37,21 @@ h2 {
     font-weight: lighter;
 }
 
+/* WEdding Videos */
+#rowRight {
+	float:right;
+	width:240px;
+	height:123px;
+}
+#rowLeft {
+	float:left;
+	width:240px;
+	height:123px;
+}
+#wrap{
+    width:585px;
+}
+
 /* site navigation */
 nav.sitenavigation {
     margin-top: 1em;
@@ -49,7 +64,9 @@ nav.sitenavigation {
     margin: 0.7em;
  }
  nav.sitenavigation a:link {
-    padding: 8px 20px;
+    border-style:outset;
+    border-width: 1px;
+    padding: 2 12;
     border-radius: 12px;
     color: black;
     text-decoration: none;
@@ -58,8 +75,8 @@ nav.sitenavigation {
     color: rgb(0,0,0);
  }
  nav.sitenavigation a:hover, nav.sitenavigation a:focus {
-    background-color: rgb(96, 172, 96);
-    color: rgb(255, 255, 255);
+    background-color: grey;
+    color: black;
  }
 
 /* main content */
@@ -98,3 +115,5 @@ nav.sitenavigation {
     background-color: rgb(96, 172, 96);
     color: white;
 }
+
+
