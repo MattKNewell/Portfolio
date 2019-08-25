@@ -40,20 +40,49 @@ h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* WEdding Videos */
-#rowRight {
-	float:right;
-	width:240px;
-	height:123px;
+.big-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 200%;
+    border:0;
+    font-weight: lighter;
+    color:black;
 }
-#rowLeft {
-	float:left;
-	width:240px;
-	height:123px;
+.other-title{
+    font-size:140%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color:black;
 }
-#wrap{
-    width:585px;
+
+.background2 {
+    background-color: #cccccc;
+    display : flex;
+    height : auto;
+    min-height : 100%;
 }
+
+.about-me-description{
+    float:right;
+    background-color: #cccccc;
+}
+
+.selfie{
+    min-width: 175px;
+    float:left;
+    width:70px;
+    background-color: #cccccc;
+    display: block;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-right:10px;
+}
+
+
+.img-icon{
+    margin-top: 20px;
+    height:20;
+}
+
 
 /* site navigation */
 nav.sitenavigation {
