@@ -64,6 +64,9 @@ h2 {
 .about-me-description{
     float:right;
     background-color: #cccccc;
+    margin-right:50px;
+    margin-left:50px;
+    margin-top:10px;
 }
 
 .selfie{
