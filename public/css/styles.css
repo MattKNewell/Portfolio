@@ -32,9 +32,12 @@ h1 {
     font-family: 'Questrial', Sans-Serif;
 }
 h2 {
-    font-family: 'Alegreya', Serif;
+    font-family: 'Playfair Display', serif;
     font-size: 100%;
     font-weight: lighter;
+}
+.intro {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* WEdding Videos */
