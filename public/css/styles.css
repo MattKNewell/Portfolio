@@ -56,16 +56,19 @@ h2 {
 
 .background2 {
     background-color: #cccccc;
-    display : flex;
     height : auto;
     min-height : 100%;
+}
+.flexxer{
+
+    display : flex;
 }
 
 .about-me-description{
     float:right;
     background-color: #cccccc;
-    margin-right:50px;
-    margin-left:50px;
+    margin-right:7px;
+    margin-left:7px;
     margin-top:10px;
 }
 
@@ -75,8 +78,8 @@ h2 {
     width:70px;
     background-color: #cccccc;
     display: block;
-    margin-top: 10px;
-    margin-bottom:10px;
+    margin-top: 30px;
+    margin-bottom:30px;
     margin-right:10px;
 }
 
