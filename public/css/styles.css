@@ -1,15 +1,12 @@
 @charset "utf-8";
 
-html {
-    font-size: 15px;
+.footerClass{
+  position: absolute;
+  bottom: 0;
+  width: 100%; 
+  background-color: lightgray;
 }
 
-footer img {
-    height:5%;
-}
-img{
-    height: 25%;
-}
 
 div, article, p, figure, figcaption, ul, nav {
     margin: 0;
@@ -73,14 +70,11 @@ h2 {
 }
 
 .selfie{
-    min-width: 175px;
-    float:left;
-    width:70px;
+    width:33%;
+    min-width: 333px;
+    float:center;
     background-color: #cccccc;
-    display: block;
-    margin-top: 30px;
-    margin-bottom:30px;
-    margin-right:10px;
+    margin-top: 1rem;
 }
 
 
