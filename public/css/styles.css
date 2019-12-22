@@ -72,6 +72,7 @@ h2 {
 .selfie{
     width:33%;
     min-width: 333px;
+    height: 33%;
     float:center;
     background-color: #cccccc;
     margin-top: 1rem;
