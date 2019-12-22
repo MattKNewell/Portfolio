@@ -76,6 +76,14 @@ h2 {
     float:center;
     background-color: #cccccc;
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.profilePic{
+    width:50%;
+    max-width: 333px;
+    margin-top: 1rem;
 }
 
 
