@@ -6,62 +6,21 @@
   width: 100%; 
   background-color: lightgray;
 }
-
-
+.container{
+    max-width: 50%;
+}
 div, article, p, figure, figcaption, ul, nav {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
     list-style: none;
 }
 
-/* body */
 body {
     text-align: center;
     background-color: rgb(255, 255, 255);
-    font-family: 'Alegreya', Serif;
 }
-
-/* headings */
-h1 {
-    font-family: 'Questrial', Sans-Serif;
-}
-h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 100%;
-    font-weight: lighter;
-}
-.intro {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.big-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 200%;
-    border:0;
-    font-weight: lighter;
-    color:black;
-}
-.other-title{
-    font-size:140%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-    color:black;
-}
-
-.background2 {
-    background-color: #cccccc;
-    height : auto;
-    min-height : 100%;
-}
-.flexxer{
-
-    display : flex;
-}
-
 .about-me-description{
     float:right;
     background-color: #cccccc;
@@ -82,82 +41,13 @@ h2 {
     margin-left: 1rem;
 }
 .profilePic{
-    width:50%;
+    width:88%;
     max-width: 333px;
     margin-top: 1rem;
 }
-
-
 .img-icon{
     margin-top: 20px;
     height:20;
-}
-
-
-/* site navigation */
-nav.sitenavigation {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-size: 15 px;
-    font-family: 'Alegreya', Serif;
- }
- nav.sitenavigation li {
-    display: block;
-    margin: 0.7em;
- }
- nav.sitenavigation a:link {
-    border-style:outset;
-    border-width: 1px;
-    padding: 2 12;
-    border-radius: 12px;
-    color: black;
-    text-decoration: none;
- }
- nav.sitenavigation a:visited {
-    color: rgb(0,0,0);
- }
- nav.sitenavigation a:hover, nav.sitenavigation a:focus {
-    background-color: grey;
-    color: black;
- }
-
-/* main content */
-.content {
-    max-width: 600px;
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    -webkit-transform: translate(-50%, -30%);
-    transform: translate(-50%, -30%);
-    font-size: 50%;
-    margin: 0 auto;
-}
-
-#origin {
-    border: 1px solid;
-    border-color: rgb(0,0,0);
-    padding: 10px;
-}
-
-#destination {
-    border: 1px solid;
-    border-color: rgb(0,0,0);
-    padding: 10px;
-}
-
-#userSub {
-    font-size: 15px;
-    font-family: 'Alegreya', Serif;
-    padding: 12px 28px;
-    border-radius: 12px;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(96, 172, 96);
-    color: black;
-}
-
-#userSub:hover {
-    background-color: rgb(96, 172, 96);
-    color: white;
 }
 
 
