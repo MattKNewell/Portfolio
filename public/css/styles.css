@@ -35,13 +35,18 @@ body {
 }
 .card{
     background-color:lightgray;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 60%;
+    max-width: 500px;
+    padding: 10px;
+    border: 3px solid gray;
+    margin: auto;
+    margin-bottom: 1rem;
 }
 
 #canvas{
     float:center;
     background-color:lightgray;
+    
 }
 
 

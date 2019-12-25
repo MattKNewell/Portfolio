@@ -34,7 +34,7 @@
         Contact <a href="mailto:matt@kentnewell.com?">Matt@kentnewell.com</a>
     </div>
   </div>
-    <div class="card" style="width: auto;">
+    <div class="card">
             <div class="card-body">
             <h5 class="card-title">Code and Projects</h5>
   <ul>
@@ -56,13 +56,16 @@
       <p><a href="https://github.com/MattKNewell/KingOfTheHill_EthdApp">Etheruem Dapp - King of The Hill</a></p>
     </li>
   </ul>
+  <hr>
+  <h5>Unique Tree</h5>
+            <canvas id="canvas" width="400" height="400"></canvas>
             <hr>
             <a href="https://github.com/MattKNewell" class="card-title">Github</a>
             </div>
     </div>
     <br>
     <a href="/videography">
-    <div class="card" style="width: auto;">
+    <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Wedding Videography</h5>
                 <hr>
@@ -71,5 +74,56 @@
     </div>  
     </a>
 </body>
+<script>
+  'use strict';
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+
+
+const SCALE_FACTOR = 1;
+const MAX_DEPTH = 10;
+const ANGLE = Math.PI/.1;
+const LENGTHSCALE = 0.75;
+const NUMBRANCHES = 4;
+
+
+function drawLine(x1, y1, x2, y2) {
+  ctx.beginPath();
+  ctx.moveTo(x1 * SCALE_FACTOR, y1 * SCALE_FACTOR);
+  ctx.lineTo(x2 * SCALE_FACTOR, y2 * SCALE_FACTOR);
+  ctx.stroke();
+}
+
+drawLine(150, 200, 150, 200)
+tree(1, 200, 200, 3*Math.PI/2)
+
+function tree(depth, xstart, ystart, angle) {
+	// start at left-most branch
+	angle -= ANGLE/2;
+
+	// number of branches at node determined by for loop
+	for(var i = 0; i < NUMBRANCHES; i++) {
+		if(Math.random() < 1-(depth/MAX_DEPTH)) {
+			// draw a line (need to know: start and end and width)
+			var length = 50 / (LENGTHSCALE * depth);
+			var xend = Math.cos(angle)*length + xstart;
+			var yend = Math.sin(angle)*length + ystart;
+			drawLine(xstart, ystart, xend, yend);
+
+			// if we want to recurse
+			if(depth < MAX_DEPTH) {
+				tree(depth+1, xend, yend, angle);
+			} else {
+				// put in a leaf
+          //drawCircle(5,5,5,5)
+			}
+		}
+		// update to new angle
+		angle += ANGLE / (NUMBRANCHES-1);
+	}
+
+
+}
+</script>
 </html>
 
