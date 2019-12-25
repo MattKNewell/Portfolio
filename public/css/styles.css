@@ -6,39 +6,23 @@
   width: 100%; 
   background-color: lightgray;
 }
-.container{
-    max-width: 50%;
-}
-div, article, p, figure, figcaption, ul, nav {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-    list-style: none;
-}
 
 body {
     text-align: center;
     background-color: rgb(255, 255, 255);
 }
 .about-me-description{
-    float:right;
+    float:center;
     background-color: #cccccc;
-    margin-right:7px;
-    margin-left:7px;
-    margin-top:10px;
+    margin-right:5%;
+    margin-left:5%;
+    margin-top:8px;
 }
 
 .selfie{
-    width:33%;
+    width:15%;
     min-width: 333px;
-    height: 33%;
-    float:center;
-    background-color: #cccccc;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    max-width:333px;
 }
 .profilePic{
     width:88%;
@@ -51,6 +35,8 @@ body {
 }
 .card{
     background-color:lightgray;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #canvas{
